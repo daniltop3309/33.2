@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ni</title>
+</head>
+<body>
+    {% for item in plist%}
+        <p>{{item.title}}</p>
+        <p>{{item.url}}</p>
+        <p>{{item.content}}</p>
+        <p>{{item.checked}}</p>
+    {% endfor %}
+</body>
+</html>
